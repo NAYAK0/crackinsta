@@ -99,9 +99,6 @@ instabrute = Instabrute(Input('Please enter a username: '))
 
 try:
 	delayLoop = int(Input('[*] Please add delay between the bruteforce action (in seconds): ')) 
-except Exception as e:
-	print ('[*] Error, software use the defult value "4"')
-	delayLoop = 4
 print ('')
 
 for password in instabrute.passwords:
